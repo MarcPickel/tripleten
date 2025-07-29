@@ -24,7 +24,6 @@ module.exports = {
     liveReload: true,
     hot: false,
   },
-  // Babel related configuration
   target: ["web", "es5"],
   module: {
     rules: [
@@ -44,7 +43,6 @@ module.exports = {
       },
     ],
   },
-
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
